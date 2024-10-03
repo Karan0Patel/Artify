@@ -11,6 +11,10 @@ const subscriptionSchema=new mongoDb.Schema({
         type:String,
         required:true
     },
+    features: {
+        type: [String], 
+        required: true
+      }
 });
 
 

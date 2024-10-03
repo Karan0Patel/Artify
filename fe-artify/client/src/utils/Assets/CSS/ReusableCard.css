@@ -1,0 +1,47 @@
+.subscription-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+    transition: transform 0.2s;
+  }
+  
+  
+  
+  .price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #156dfe; 
+  }
+  
+  .feature
+  {
+    text-align: left ;
+  }
+  
+  .select-plan-btn {
+    background-color: #4e00b2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .select-plan-btn:hover {
+    background-color: #350277;
+  }
+  
+  .platinum-card {
+    background-color: #e5e4e2; 
+  }
+  
+  .gold-card {
+    background-color: #ffd700; 
+  }
+  
+  .silver-card {
+    background-color: #c0c0c0; 
+  }
+  

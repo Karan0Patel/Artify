@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.edit-profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #2e5067;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .background-image {
+    width: 100%;
+    height: 30%;
+    background-position: center;
+    position: relative;
+  }
+  .banner{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 5;
+    object-fit: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  /* Profile photo container */
+  .profile-photo {
+    width: 11%;
+    height: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    margin-top: -7%;
+    margin-left: 44%;
+  }
+  
+  .profile-photo img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 5;
+    object-fit: cover;
+  }
+
+  .upload-photo-btn {
+    background-color: #3D00B7;
+    border-radius: 0.5rem;
+    color: white;
+    padding: 1.3vh 1vw;
+    width: 15%;
+    text-align: center;
+    font-size: 0.8rem;
+    border: 0.1rem solid #A259FF;
+    position: absolute;
+    margin-top: 25%;
+    left: calc(50% - 7vw);
+    z-index: 10;
+  }
+
+  .camera-icon {
+    position: absolute;
+    top: 20vh;
+    right: 10vw;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+ 
+  .form-section {
+    background-color: #2e5067;
+    width: 80%;
+    margin-top: 10vh;
+  }
+
+
+  .heading {
+    font-size: 3rem;
+    color: #F8EFBA;
+    text-shadow: -1px -1px 0px black;
+    font-family: "Work Sans", sans-serif;
+    text-align: left;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+
+  .nameUserName {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .input-container {
+    margin-bottom: 1rem;
+  }
+
+  .labelData {
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    color: #f0f0f0;
+    margin-bottom: 0.3rem;
+    display: block;
+    text-align: left;
+  }
+
+  ::placeholder {
+    color: #3B3B3B;
+  }
+
+
+  .inputClass,
+  .textareaClass {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    padding: 1.5vh;
+    border-radius: 0.3rem;
+    border: 0.2rem solid #65939D;
+    background-color: #65939D;
+    color: #3B3B3B;
+    font-size: 1rem;
+  }
+
+
+  .textareaClass {
+    height: 20vh;
+  }
+
+
+  .submit {
+    width: 20%;
+    padding: 2vh;
+    border: none;
+    margin-bottom: 3vw;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    background: linear-gradient(90deg, #FAD000 10%, #947B00 90%);
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .submit:hover {
+    background-color: #ffbf00;
+  }
+

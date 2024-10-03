@@ -1,0 +1,88 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .main {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .container .image {
+    flex: 1;
+    /* https://www.vectorstock.com/royalty-free-vector/cosmonaut-vector-38239546 */
+    background-image: url('../Images/signup-banner.jpg');
+    background-size:contain;
+    background-position: center;
+  }
+  
+  .container .form-container {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2f4858;
+  }
+  
+  .container .form-container h2 {
+    color: #f6e58d;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .container .form-container p {
+    color: #d1d8e0;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  
+  .form-container input {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #cfd8dc;
+    border-radius: 50px;
+    font-size: 1rem;
+  }
+  
+  .form-container input:focus {
+    outline: none;
+    border-color: #f6e58d;
+  }
+  
+  .form-container button {
+    padding: 1rem;
+    background-color: #6c5ce7;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-container button:hover {
+    background-color: #341f97;
+  }
+  
